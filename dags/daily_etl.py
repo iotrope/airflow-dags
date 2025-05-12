@@ -13,7 +13,7 @@ def load():
     print("Loading data...")
 
 with DAG(
-    dag_id="daily_etl_pipeline",
+    dag_id="daily_etl_pipeline_updated",
     start_date=datetime(2023, 1, 1),
     schedule_interval="@daily",
     catchup=False,
